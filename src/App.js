@@ -6,6 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
+import './css/style.css';
+
 import Main from './components/00Main';
 import Progress from './components/01Progress';
 

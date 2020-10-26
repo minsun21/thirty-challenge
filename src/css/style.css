@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "components/progress.css";
+
+nav{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding:15px;
+}
