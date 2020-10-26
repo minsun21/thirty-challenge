@@ -1,8 +1,12 @@
 import './App.css';
 import {
   BrowserRouter as Router,
+  Switch,
+  Route,
   Link
 } from "react-router-dom";
+
+import Main from './components/00Main';
 import Progress from './components/01Progress';
 
 function App() {
@@ -12,14 +16,12 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/"></Link>
-            </li>
-            <li>
-              <Link to="/progress">01 Progress</Link>
+              <Link to="/">Main</Link>
             </li>
           </ul>
         </nav>
         <Switch>
+          <Route exact path="/" component={Main} />
           <Route exact path="/progress" component={Progress} />
         </Switch>
       </div>
