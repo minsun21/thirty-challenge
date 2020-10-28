@@ -10,6 +10,12 @@ function Main() {
             <li>
                 <Link to="/joke">02 Joke</Link>
             </li>
+            <li>
+                <Link to="/imagePassword">03 Image Password</Link>
+            </li>
+            <li>
+                <Link to="/lineThrough">04 Line Through</Link>
+            </li>
         </ul>
     )
 }

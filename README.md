@@ -9,3 +9,11 @@
 - transform:scale(0.98);
 - fetch, then
 - max-width : 지정한 사이즈보다 커지진 않음
+
+
+## 3. Image Password
+- background-repeat  : 이미지 반복
+
+
+## 4. Line Through Effect
+-
